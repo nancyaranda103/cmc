@@ -29,7 +29,7 @@ https://plus.unsplash.com/premium_photo-1663931932687-c4c2366a5c61?q=80&w=1770&a
             <a class="nav-link" href="#">About us </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">FAQ</a>
+            <a class="nav-link" href="#faq">FAQ</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="login.html">Login</a>
@@ -50,7 +50,7 @@ https://plus.unsplash.com/premium_photo-1663931932687-c4c2366a5c61?q=80&w=1770&a
 LET US <br> TRADE FOR <span>YOU</span>
 </h1>
 <p>World's biggest cryptocurrency and stock trading platform that trades for you no risk at all </p>
-<a href="login.html" class="btn btn-primary " style="margin-left:30px; display: inline-block;
+<a href="#investment" class="btn btn-primary " style="margin-left:30px; display: inline-block;
 padding:15px 50px; border-radius:30px;
 ">EXPLORE MORE</a>
 </div>
@@ -167,12 +167,25 @@ padding:15px 50px; border-radius:30px;
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+<script src="https://widgets.coingecko.com/gecko-coin-list-widget.js"></script>
+<div class="container coingecko">
+  <div class="coingecko-wrapper"  >
+ 
+    <gecko-coin-list-widget locale="en" dark-mode="true" outlined="true" coin-ids="" initial-currency="usd"></gecko-coin-list-widget>
 
-<!--  -->
+  </div>
+
+</div>
+
+
+
+
+
+<!-- invest plans -->
 <section class="bg-light mt-5">
 <div class="container-lg">
 <div class="text-center">
-<h2>investment Plans </h2>
+<h2 id="investment"   >investment Plans </h2>
 <p class="lead text-muted">choose an investment plan that suits you </p>
 <div class="row my-5 align-items-center justify-content-center">
 <div class="col-8 col-lg-4 col-xl-3">
@@ -242,15 +255,7 @@ padding:15px 50px; border-radius:30px;
 
 
 
-
-
-
-
-
-
-
-
-
+<!-- withdrawals -->
 
     <style>
         
@@ -261,7 +266,7 @@ padding:15px 50px; border-radius:30px;
     </style>
 
     <div class="container">
-        <h1 class="text-center pt-5 text-primary ">Latest Withdrawals</h1>
+        <h1 class="text-center pt-5 text-primary   ">Latest Withdrawals</h1>
         <table class="table table-bordered table-striped" id="withdrawalsTable">
             <thead>
                 <tr>
@@ -276,6 +281,66 @@ padding:15px 50px; border-radius:30px;
             </tbody>
         </table>
     </div>
+<!-- frequently asked questions  -->
+
+
+    <section class="py-md-2">
+      <h2 class="my-5 text-center lead  " id="faq" >FAQ</h2>
+    
+      <div class="accordion w-75 mx-auto" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            How do i get paid ?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+              <strong>Payment Options.</strong>You can withdraw anytime as long as the waiting period has been completed
+               simply press the withdrawal button on your dashboard, and select your payment options, that means how you want 
+               to get paid and press enter, you will be credited soon.
+               for more issues us on via email <a href="mailto:#">support@cmcprofixtrades.com</a>
+               
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+              How long does it take for my money to reflect on  my dashboard
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <strong>Refelection issues.</strong> No need to worry once you have deposited into the wallet and our payment has been 
+              confirmed it will be depsoited shortly not less than 5mins our team our working round the clock to ensure everything is 
+              going smoothly for you!!
+             
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        Can i get on the phone with a representative to understand how this works ?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <strong>Understanding issues.</strong>You can always chat with us on live chat and we can explain anything for you
+              or can you reach us through whatsapp <a href="https://wa.me/message/S5ADN74VB3NTC1">+44 7721 433451</a>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
 
 
 
@@ -341,6 +406,6 @@ padding:15px 50px; border-radius:30px;
       updateTable();
   }
   
-  </script>\
+  </script>
   <script src="script.js"></script>
  </html>
